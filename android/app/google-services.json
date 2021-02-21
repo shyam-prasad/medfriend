@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "745748240579",
+    "project_id": "medfriend-c79c8",
+    "storage_bucket": "medfriend-c79c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745748240579:android:b5ae5b89218e429a762a76",
+        "android_client_info": {
+          "package_name": "com.example.welness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745748240579-5cumqn7t056osv6i593lkcbp5514dkdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.welness",
+            "certificate_hash": "93266cdbbe9a499fa302ba5069694cb5874d817f"
+          }
+        },
+        {
+          "client_id": "745748240579-kbur4g8sni5mfpc01a5o1ua9d3ksai93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzXCCjA1Rmm_27vjr95YJTwu5NzvNAd84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745748240579-kbur4g8sni5mfpc01a5o1ua9d3ksai93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

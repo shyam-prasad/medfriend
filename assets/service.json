@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "medfriendbot-g99v",
+  "private_key_id": "338323f41e86ba55f7a9cfb8db3aa645c654f467",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpUElVqp5CMeV4\nxu7wGWlwGlToEeu8YgDSpc9sx6bY+No9o2A2VFJB1mFq+ZRpIp1kiQvlYPUzOhyO\num1YPKxhdEOF1kykyv0XMnpf2ZzXmTSJKw0u1qWw6lGvDg+jORZIv9/7+lISbVxo\nlltQG0LE+OOq66GnpXpPu5QHHCJuLlkOTGUhTWbml3IKd+3DHxH0GRXSWvlqE4ZL\ndh/e7mBu0oSO+1AlNcTe1FXWbjG7YTfJ9mJQrL0kwnTjvyOr2MqBBxUC57MiY2yZ\nT3sT2Avhk7nd+VKWsA43LVoCVVOieXLF9cYBUG9oLe3yVC+e97YBC5DO1hZRxfZE\n9IbyEPKjAgMBAAECggEADc0LjT4RFFg42jVs+Ik5vPeIgDoluv9KDeGSHM3RXdI7\nB9cvWn5ZDiDJZAzf+gnmRnGdVJ8onXpZJZEwpIadjnwJnPkw2iXpp2Bn9TQpwrEs\nRRoLQwwgCWGwMtK0l5tpo5hwS3vGANaFN8k5vDfco22eMSpvzNiCNcmWcVXrwItI\nqjspODGyHKiaDvRfcsYiIK78L7Cn15db1gfUAHnv8J+BUuQBjeFzv4SOO5di2Rrx\nuXMIhpIINsyO/4MDfqcAhDoIRsd0WDOvT2ArwGdZOqQXqpLyMdjXV/dJQeNwSamO\nDb69NhQl8+YhycHbiYKN+MsdJ9Ec4I55LmWYpSWOkQKBgQDQvDMsm1G5r1wcfIkl\nCaHJYGCGshb5QtwlQzi8rA8NVv7iOHjKDbvqo9zWnNGRFJ9VYAhTy5TyzQgrIqlm\nia2GBQQCETiKxVCUKqPDtnYfumS1oXC63RdUv3z++o61hqiXG0FdjlFjlB9hVgrg\n10/no51FgxZ7iYs8eoRdXsoWFwKBgQDPpu3UZaPF1KtwB1jEvXBlrK7WTlOMvrBE\nHdIi32UabBmy5md5chivJliA2OxZUdlsH4S5nvGz4BO4c3NUlVmZoY6A1qtFIiDE\nKImjNb8BPUKmX3zEWbPjHwC11Z2vBTRDHcaSlNwoSrU8xwzEmlEXhn75NWdlB4SJ\n07Kg3aRrVQKBgE0J6OlBufwKWLi6zfM5htjIFVghSpFct9uY38vixPtrbE8aAJqy\nTvTe3Zbn8gDV16iu9OPYc3TZb3ZcKKGLltur5jrNGE0/XeoRgretFBPJu3m9x9lv\n2DiTJBMHbrxYosiCarGY4TkbZimKlCE/1mHr5RPOufGGZjlADrJXVcapAoGAUdkS\nVW3ap9ez22yJ6MJi0zDFmWM2O3vOLosykNxNFaUWXBXFI3F9mUwcBm16e5pvgNbL\nkf68dpIUM9gN1YEo2A1+BfqXd6CEGc2Asvw0VWC4LKvmmd5hsVw/A203wgzjFLFf\n29chECCiX1p2BehtnkA9PC14m7Hi5BC1kALNFCECgYBCerqvLGqyXobmnhRik6p+\nyILnQPelzcArXrjzBwnAzYCXztNGfohZQ+HYtpDlUeC5B6NNQ3zxDvuXYtAr/zZH\n5baEBPx1sqSjL7oY0NK8njQVTX6LUGW+KSSGdD1bxWqYIXz3lmtl1NyrIXORV/td\nsXzLVqeauzXdW3wJ6/cwLQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "shyam-405@medfriendbot-g99v.iam.gserviceaccount.com",
+  "client_id": "109080994822685897512",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shyam-405%40medfriendbot-g99v.iam.gserviceaccount.com"
+}
