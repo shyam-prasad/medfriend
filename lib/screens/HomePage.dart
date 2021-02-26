@@ -4,6 +4,7 @@ import 'package:flash/flash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:welness/constants.dart';
 import 'package:welness/screens/AuthenticationPage.dart';
 import 'package:welness/screens/ProfilePage.dart';
@@ -81,6 +82,48 @@ class _HomePageState extends State<HomePage> {
                                   SizedBox(
                                     height: 20,
                                   ),
+                                    TextFormField(
+                                    cursorColor: kSecondaryColor,
+                                    style: TextStyle(
+                                        color: kSecondaryColor,
+                                        fontFamily: 'LinotteBold',
+                                        fontSize: 25),
+                                    decoration: InputDecoration(
+                                      hintText: 'Heart Rate',
+                                      hintStyle: TextStyle(
+                                          color: kSecondaryColor,
+                                          fontFamily: 'LinotteBold',
+                                          fontSize: 25),
+                                      prefixIcon: Icon(
+                                        FontAwesomeIcons.heartbeat,
+                                        color: kSecondaryColor,
+                                        size: 20,
+                                      ),
+                                      border: OutlineInputBorder(
+                                        borderRadius: BorderRadius.circular(10),
+                                        borderSide:
+                                            BorderSide(color: kSecondaryColor),
+                                      ),
+                                      disabledBorder: OutlineInputBorder(
+                                        borderRadius: BorderRadius.circular(10),
+                                        borderSide:
+                                            BorderSide(color: kSecondaryColor),
+                                      ),
+                                      enabledBorder: OutlineInputBorder(
+                                        borderRadius: BorderRadius.circular(10),
+                                        borderSide:
+                                            BorderSide(color: kSecondaryColor),
+                                      ),
+                                      focusedBorder: OutlineInputBorder(
+                                        borderRadius: BorderRadius.circular(10),
+                                        borderSide: BorderSide(
+                                            color: kSecondaryColor, width: 3),
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 20,
+                                  ),
                                   TextFormField(
                                     cursorColor: kSecondaryColor,
                                     style: TextStyle(
@@ -94,24 +137,24 @@ class _HomePageState extends State<HomePage> {
                                           fontFamily: 'LinotteBold',
                                           fontSize: 25),
                                       prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
+                                        FontAwesomeIcons.shoePrints,
                                         color: kSecondaryColor,
                                         size: 20,
                                       ),
                                       border: OutlineInputBorder(
                                         borderRadius: BorderRadius.circular(10),
                                         borderSide:
-                                            BorderSide(color: kSecondaryColor),
+                                        BorderSide(color: kSecondaryColor),
                                       ),
                                       disabledBorder: OutlineInputBorder(
                                         borderRadius: BorderRadius.circular(10),
                                         borderSide:
-                                            BorderSide(color: kSecondaryColor),
+                                        BorderSide(color: kSecondaryColor),
                                       ),
                                       enabledBorder: OutlineInputBorder(
                                         borderRadius: BorderRadius.circular(10),
                                         borderSide:
-                                            BorderSide(color: kSecondaryColor),
+                                        BorderSide(color: kSecondaryColor),
                                       ),
                                       focusedBorder: OutlineInputBorder(
                                         borderRadius: BorderRadius.circular(10),
@@ -123,48 +166,7 @@ class _HomePageState extends State<HomePage> {
                                   SizedBox(
                                     height: 20,
                                   ),
-                                  TextFormField(
-                                    cursorColor: kSecondaryColor,
-                                    style: TextStyle(
-                                        color: kSecondaryColor,
-                                        fontFamily: 'LinotteBold',
-                                        fontSize: 25),
-                                    decoration: InputDecoration(
-                                      hintText: 'Heart Rate',
-                                      hintStyle: TextStyle(
-                                          color: kSecondaryColor,
-                                          fontFamily: 'LinotteBold',
-                                          fontSize: 25),
-                                      prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
-                                        color: kSecondaryColor,
-                                        size: 20,
-                                      ),
-                                      border: OutlineInputBorder(
-                                        borderRadius: BorderRadius.circular(10),
-                                        borderSide:
-                                            BorderSide(color: kSecondaryColor),
-                                      ),
-                                      disabledBorder: OutlineInputBorder(
-                                        borderRadius: BorderRadius.circular(10),
-                                        borderSide:
-                                            BorderSide(color: kSecondaryColor),
-                                      ),
-                                      enabledBorder: OutlineInputBorder(
-                                        borderRadius: BorderRadius.circular(10),
-                                        borderSide:
-                                            BorderSide(color: kSecondaryColor),
-                                      ),
-                                      focusedBorder: OutlineInputBorder(
-                                        borderRadius: BorderRadius.circular(10),
-                                        borderSide: BorderSide(
-                                            color: kSecondaryColor, width: 3),
-                                      ),
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    height: 20,
-                                  ),
+
                                   TextFormField(
                                     cursorColor: kSecondaryColor,
                                     style: TextStyle(
@@ -178,7 +180,7 @@ class _HomePageState extends State<HomePage> {
                                           fontFamily: 'LinotteBold',
                                           fontSize: 25),
                                       prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
+                                        MdiIcons.bloodBag,
                                         color: kSecondaryColor,
                                         size: 20,
                                       ),
@@ -220,7 +222,7 @@ class _HomePageState extends State<HomePage> {
                                           fontFamily: 'LinotteBold',
                                           fontSize: 25),
                                       prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
+                                        MdiIcons.temperatureCelsius,
                                         color: kSecondaryColor,
                                         size: 20,
                                       ),
@@ -262,7 +264,7 @@ class _HomePageState extends State<HomePage> {
                                           fontFamily: 'LinotteBold',
                                           fontSize: 25),
                                       prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
+                                        MdiIcons.water,
                                         color: kSecondaryColor,
                                         size: 20,
                                       ),
@@ -304,7 +306,7 @@ class _HomePageState extends State<HomePage> {
                                           fontFamily: 'LinotteBold',
                                           fontSize: 25),
                                       prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
+                                        MdiIcons.spoonSugar,
                                         color: kSecondaryColor,
                                         size: 20,
                                       ),
@@ -346,7 +348,7 @@ class _HomePageState extends State<HomePage> {
                                           fontFamily: 'LinotteBold',
                                           fontSize: 25),
                                       prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
+                                        MdiIcons.cloud,
                                         color: kSecondaryColor,
                                         size: 20,
                                       ),
@@ -388,7 +390,7 @@ class _HomePageState extends State<HomePage> {
                                           fontFamily: 'LinotteBold',
                                           fontSize: 25),
                                       prefixIcon: Icon(
-                                        FontAwesomeIcons.calendarAlt,
+                                        FontAwesomeIcons.lungs,
                                         color: kSecondaryColor,
                                         size: 20,
                                       ),

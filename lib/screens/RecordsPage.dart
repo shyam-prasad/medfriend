@@ -30,51 +30,7 @@ class RecordsPage extends StatelessWidget {
                   crossAxisSpacing: 20,
                   mainAxisSpacing: 20,
                   children: [
-                    Material(
-                      elevation: 4,
-                      color: kSecondaryColor,
-                      shadowColor: kSecondaryColor,
-                      borderRadius: BorderRadius.circular(30),
-                      child: Center(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              snap['steps'].toString(),
-                              style: TextStyle(
-                                  fontFamily: 'LinotteBold',
-                                  fontSize: 65,
-                                  color: kPrimaryColor,
-                                  fontWeight: FontWeight.bold),
-                            ),
-                            SizedBox(
-                              height: 15,
-                            ),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                FaIcon(
-                                  FontAwesomeIcons.shoePrints,
-                                  size: 35,
-                                  color: kPrimaryColor,
-                                ),
-                                SizedBox(
-                                  width: 10,
-                                ),
-                                Text(
-                                  'Steps',
-                                  style: TextStyle(
-                                      fontFamily: 'LinotteBold',
-                                      fontSize: 40,
-                                      color: kPrimaryColor,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ],
-                            )
-                          ],
-                        ),
-                      ),
-                    ),
+
                     Material(
                       elevation: 4,
                       color: kSecondaryColor,
@@ -108,6 +64,51 @@ class RecordsPage extends StatelessWidget {
                                 ),
                                 Text(
                                   'Rate',
+                                  style: TextStyle(
+                                      fontFamily: 'LinotteBold',
+                                      fontSize: 40,
+                                      color: kPrimaryColor,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Material(
+                      elevation: 4,
+                      color: kSecondaryColor,
+                      shadowColor: kSecondaryColor,
+                      borderRadius: BorderRadius.circular(30),
+                      child: Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              snap['steps'].toString(),
+                              style: TextStyle(
+                                  fontFamily: 'LinotteBold',
+                                  fontSize: 65,
+                                  color: kPrimaryColor,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              height: 15,
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                FaIcon(
+                                  FontAwesomeIcons.shoePrints,
+                                  size: 35,
+                                  color: kPrimaryColor,
+                                ),
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                Text(
+                                  'Steps',
                                   style: TextStyle(
                                       fontFamily: 'LinotteBold',
                                       fontSize: 40,
